@@ -32,7 +32,6 @@ abstract class Api {
     return null;
   }
 
-  //呐呐，大五哥哥说这个不行呢~
   static Future<List<User>> getFollowingList(int id, int page) async {
     List<User> list = [];
     var data = await call(WebOURL.followings, data: {
@@ -71,6 +70,4 @@ abstract class Api {
     });
     return data != null;
   }
-
-
 }

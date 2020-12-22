@@ -1,5 +1,5 @@
 class WebOURL {
-  static const base = 'http://123.57.50.102:8080';
+  static const base = 'http://webo.moecoro.xyz';
 
   // Auth
   static const login = base + '/user/login';
